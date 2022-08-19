@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CBWL assignment</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        label {
+            color: white;
+        }
+    </style>
+</head>
+
+<body style="background-color: #024959;">
+    <!-- Navbar Starts -->
+    <div
+        style="display:flex; justify-content: space-between;align-items: center; padding: 0 20px; height: 60px; background-color: #012E40; color: white;">
+        <header>
+            <h1><a style="color: white; text-decoration: none;" href="../../index.html">CBWL</a></h1>
+        </header>
+        <nav>
+            <ul style="display:flex; list-style: none;">
+                <li><a style="text-decoration: none;padding:0 10px; color: white;" href="../home/home.html">Home</a></li>
+                <li><a style="text-decoration: none;padding:0 10px; color: white;"
+                        href="../gallery/gallery.html">Gallery</a></li>
+                <li><a style="text-decoration: none;padding:0 10px; color: white;"
+                        href="../services/services.html">Services</a></li>
+                <li><a style="text-decoration: none;padding:0 10px; color: white;" href="../about/about.html">About</a>
+                </li>
+                <li><a style="text-decoration: none;padding:0 10px; color: white;"
+                        href="../contact/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- Main Starts -->
+    <div style="margin-top: 40px; color:white">
+        <center><h2>Contact us</h2></center>
+    </div>
+    <div style="display: flex;justify-content:center;align-items:center; height:400px">
+        <form action="#" method="get">
+            <table>
+                <tr>
+                    <td><label for="emailAddress">Email : </label></td>
+                    <td><input type="email" name="emailAddress" id="emailAddress" size="43" required></td>
+                </tr>
+                <tr>
+                    <td><label for="firstName">First Name : </label></td>
+                    <td><input type="text" name="firstName" id="firstName" size="43" required></td>
+                </tr>
+                <tr>
+                    <td><label for="lastName">Last Name : </label></td>
+                    <td><input type="text" name="lastName" id="lastName" size="43" required></td>
+                </tr>
+                <tr>
+                    <td><label for="remarks">Remarks : </td>
+                    <td><textarea name="remarks" id="remarks" cols="45" rows="10"></textarea></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td align="right"><input type="submit" name="submit" id="submit"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+</body>
+
+</html>

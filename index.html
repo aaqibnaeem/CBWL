@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CBWL assignment</title>
+    <script src="sliderengine/jquery.js"></script>
+    <script src="sliderengine/amazingslider.js"></script>
+    <link rel="stylesheet" type="text/css" href="sliderengine/amazingslider-1.css">
+    <script src="sliderengine/initslider-1.js"></script>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+
+<body style="background-color: #024959;">
+
+    <!-- Navbar Starts -->
+    <div
+        style="display:flex; justify-content: space-between;align-items: center; padding: 0 20px; height: 60px; background-color: #012E40; color: white;">
+        <header>
+            <h1><a style="color: white; text-decoration: none;" href="#">CBWL</a></h1>
+        </header>
+        <nav>
+            <ul style="display:flex; list-style: none;">
+                <li><a style="text-decoration: none;padding:0 10px; color: white;"
+                        href="./Components/home/home.html">Home</a></li>
+                <li><a style="text-decoration: none;padding:0 10px; color: white;"
+                        href="./Components/gallery/gallery.html">Gallery</a></li>
+                <li><a style="text-decoration: none;padding:0 10px; color: white;"
+                        href="./Components/services/services.html">Services</a></li>
+                <li><a style="text-decoration: none;padding:0 10px; color: white;" href="./Components/about/about.html">About</a>
+                </li>
+                <li><a style="text-decoration: none;padding:0 10px; color: white;"
+                        href="./Components/contact/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- Banner / Slider Starts -->
+    <div>
+        <div class="amazingslider-wrapper" id="amazingslider-wrapper-1"
+            style="display:block;position:relative;max-width:100%;margin:0 auto;">
+            <div class="amazingslider" id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
+                <ul class="amazingslider-slides" style="display:none;">
+                    <li><img src="images/CBWL-banner-1.jpg" />
+                    </li>
+                    <li><img src="images/CBWL-banner-2.jpg" />
+                    </li>
+                    <li><img src="images/CBWL-banner-3.jpg" />
+                    </li>
+                </ul>
+                <ul class="amazingslider-thumbnails" style="display:none;">
+                    <li><img src="images/CBWL-banner-1-tn.jpg" /></li>
+                    <li><img src="images/CBWL-banner-2-tn.jpg" /></li>
+                    <li><img src="images/CBWL-banner-3-tn.jpg" /></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
